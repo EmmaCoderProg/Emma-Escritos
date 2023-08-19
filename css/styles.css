@@ -14,14 +14,12 @@ body {
     background-repeat: no-repeat;
     min-height: 100vh;
     position: relative;
+    padding-bottom: 80px;
+    padding-top: 50px;
+
 
 }
- /* .navegador {
-    display: flex;
-    width: 100%;
-    position: fixed;
-    top: 0px; */
- }
+
 
 /* //////////////////////////////////login////////////////////////////////////////// */
 
@@ -254,3 +252,45 @@ section {
 }
 
 /* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<Footer-end<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+/* //////////////////////////////////login////////////////////////////////////////// */
+section {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.notes {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+}
+
+.sticky-note {
+    background-color: yellow;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 200px;
+    margin: 10px;
+    position: relative;
+}
+
+.sticky-note p {
+    font-size: 14px;
+    color: #666;
+    margin: 0;
+}
+
+.delete-btn {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    cursor: pointer;
+}
