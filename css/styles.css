@@ -16,8 +16,9 @@ body {
     background-repeat: no-repeat;
     min-height: 100vh;
     position: relative;
-    padding-bottom: 100px;
+    /* padding-bottom: 100px; */
     padding-top: 50px;
+    border: 4px black solid;
 
 
 }
@@ -31,37 +32,32 @@ body {
     justify-content: center;
     font-family: sans-serif;
     align-items: center;
-    border: solid black 1px;
-    padding-top: 20px;
+    /* border: solid black 1px; */
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 
 .main-index__loginbox {
     display: flex;
     align-items: center;
-    padding: 0 5px 0 15px;
+    /* padding: 0 0px 0 15px; */
 }
 
 .login {
     background: transparent;
     width: 100%;
     height: 480px;
-    border: solid 5px rgb(197, 197, 197);
+    border: solid 3px rgb(197, 197, 197);
     box-shadow: 0 0 50px 0px rgba(0, 0, 0, 0.603);
     color: rgb(255, 255, 255);
     text-shadow: 0 0 5px #000000;
-    padding: 70px 30px;
+    padding: 30px;
     position: relative;
     border-radius: 20px;
     backdrop-filter: blur(15px);
 }
 
-.login-logo {
-    width: 80px;
-    position: absolute;
-    top: -50px;
-    left: calc(50% - 50px);
 
-}
 
 .login h1 {
     font-size: 50px;
@@ -232,10 +228,14 @@ section {
 /* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<Footer<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
 
 #footer {
-    background-color: rgb(180, 179, 179);
+    background-color: rgb(75, 75, 75);
+    display: flex;
     position: absolute;
     bottom: 0;
     width: 100%;
+    height: 7%;
+    align-items: center;
+    justify-content: center;
 }
 
 #footer .copyright {
@@ -251,7 +251,7 @@ section {
 
 /* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<Footer-end<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
 
-/* //////////////////////////////////login////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////////////////////// */
 section {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -291,4 +291,12 @@ section {
     top: 5px;
     right: 5px;
     cursor: pointer;
+}
+
+.row a {
+    margin-left: 10px;
+}
+
+.row button {
+    margin-right: 10px;
 }
