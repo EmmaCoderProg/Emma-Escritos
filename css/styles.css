@@ -255,9 +255,8 @@ html {
 }
 
 .carousel {
-  margin: 10px 200px;
+  margin: 10px 10px;
 }
 .carousel img {
   height: 65vh;
-  width: 50%;
 }/*# sourceMappingURL=styles.css.map */
