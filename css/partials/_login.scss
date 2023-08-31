@@ -5,13 +5,15 @@
     justify-content: center;
     font-family: sans-serif;
     align-items: center;
-    /* border: solid black 1px; */
+    border: solid black 4px;
     padding-top: 5%;
     padding-bottom: 5%;
 
     .main-index__loginbox {
         display: flex;
         align-items: center;
+        border: solid black 4px;
+
         /* padding: 0 0px 0 15px; */
 
         .login {

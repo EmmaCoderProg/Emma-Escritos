@@ -25,13 +25,12 @@ body {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  min-height: 100vh;
   display: flex;
+  flex-direction: column;
+  min-height: 100%;
   justify-content: center;
-  position: relative;
+  margin-top: 50px;
   /* padding-bottom: 100px; */
-  padding-top: 50px;
-  border: 4px black solid;
 }
 
 /* * ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ Login ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ */
@@ -40,13 +39,14 @@ body {
   justify-content: center;
   font-family: sans-serif;
   align-items: center;
-  /* border: solid black 1px; */
+  border: solid black 4px;
   padding-top: 5%;
   padding-bottom: 5%;
 }
 .main-index .main-index__loginbox {
   display: flex;
   align-items: center;
+  border: solid black 4px;
   /* padding: 0 0px 0 15px; */
 }
 .main-index .main-index__loginbox .login {
@@ -112,7 +112,6 @@ body {
 
 /* * ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ Cards ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ */
 .cards {
-  max-width: 1200px;
   margin: 0 auto;
   padding: 20px;
   display: grid;
@@ -197,8 +196,7 @@ section .contacto .contact-card ul li .icon {
 #footer {
   background-color: rgb(75, 75, 75);
   display: flex;
-  position: absolute;
-  bottom: 0;
+  margin-top: auto;
   width: 100%;
   align-items: center;
   justify-content: center;
@@ -250,4 +248,16 @@ article .notes .sticky-note .delete-btn {
   top: 5px;
   right: 5px;
   cursor: pointer;
+}
+
+html {
+  height: 100%;
+}
+
+.carousel {
+  margin: 10px 200px;
+}
+.carousel img {
+  height: 65vh;
+  width: 50%;
 }/*# sourceMappingURL=styles.css.map */
