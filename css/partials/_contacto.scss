@@ -4,7 +4,7 @@ section {
     background-color: #4b3e3e77;
     margin: 60px 0px;
     padding: 0;
-    border: solid black 1px;
+    // border: solid black 1px;
     // justify-content: center;
 
 
@@ -13,7 +13,7 @@ section {
         margin: 0 auto;
         padding: 20px;
         display: flex;
-        border: solid red 1px;
+        // border: solid red 1px;
         justify-content: start;
 
         @include mobile {
