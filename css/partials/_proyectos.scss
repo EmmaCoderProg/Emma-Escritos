@@ -7,13 +7,15 @@ article {
 
     .notes {
         max-width: 1200px;
-        margin: 0 auto;
+        margin: 60px auto;
         padding: 20px;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
         align-items: flex-start;
-        min-height: 100vh;
+        // min-height: 100vh;
+        border: solid black 4px;
+
 
         .sticky-note {
             background-color: yellow;
