@@ -132,7 +132,7 @@ body {
   text-decoration: none;
   font-size: 15px;
   line-height: 20px;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
 }
 
 /* * ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ Cards ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ */
@@ -318,4 +318,39 @@ html {
 }
 .carousel img {
   height: 65vh;
+}
+
+.cont {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.cont form {
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+.cont form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+.cont form input[type=file] {
+  margin-bottom: 10px;
+}
+.cont form input[type=submit] {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.cont form input[type=submit]:hover {
+  background-color: #555;
 }/*# sourceMappingURL=styles.css.map */

@@ -9,8 +9,51 @@
         integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/styles.css">
 </head>
+<body class="article">
+    <header>
+        <div class="row fixed-top">
+            <nav class="columna col-12 navbar navbar-expand-lg navbar-light">
+                <div class="container">
+                    <a class="navbar-brand" href="../index.html">
+                        <img src="../assets/img/libroicon.png" alt="Logo" width="30" height="24"
+                            class="d-inline-block align-text-top">
+                        Escritos
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Archivos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../pages/Historias.html">Historias</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../pages/Contacto.html">Contacto</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../pages/Proyectos.html">Proyectos</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
 
-<body>
+    <div class="cont">
+        <h2>Subir Archivos</h2>
+        <form action="upload.php" method="post" enctype="multipart/form-data">
+            <label for="file">Selecciona un archivo:</label>
+            <input type="file" name="file" id="file">
+            <input type="submit" value="Subir Archivo">
+        </form>
+    </div>
+</body>
+<!-- <body>
     <header>
         <div class="row fixed-top">
             <nav class="columna col-12 navbar navbar-expand-lg navbar-light">
@@ -81,6 +124,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous">
     </script>
-</body>
+</body> -->
 
 </html>
